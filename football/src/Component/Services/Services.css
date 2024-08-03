@@ -1,0 +1,31 @@
+.service-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+}
+
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 12vh 12vh;
+}
+
+.ser{
+    width: 18rem;
+    margin: 12px 12px;
+    overflow: hidden;
+}
+
+
+.ser-img:hover{
+    overflow: hidden;
+    transform: scale(1.1);
+}
+.card-body:hover{
+    border: 2px solid black;
+}
