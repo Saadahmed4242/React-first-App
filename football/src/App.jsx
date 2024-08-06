@@ -8,6 +8,7 @@ import SignUp from "./Component/SignUp/SignUp"
 import AboutUs from "./Component/AboutUs/AboutUs"
 import Introduction from "./Component/Introduction/Introduction"
 import NewsAlert from "./Component/NewsAlert/NewsAlert"
+import LoginSignUp from "./Component/LoginSignUp/LoginSignUp"
 
 function App() {
   
@@ -23,6 +24,7 @@ function App() {
       <ContactUs/>
       <Login/>
       <SignUp/>
+      <LoginSignUp/>
       
     </>
 
