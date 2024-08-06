@@ -1,0 +1,54 @@
+
+
+.sign-up-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgb(0,0,0);
+    background: linear-gradient(256deg, rgb(92, 1, 1) 0%, rgba(218,0,0,1) 100%);
+}
+.sign-up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vh;
+    height: 70  vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 2px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgb(45, 16, 16);
+    background: linear-gradient(256deg, rgb(45 16 16 / 45%) 48%, rgb(177 12 12 / 53%) 49%);
+    color: white;
+    backdrop-filter: blur(40px);
+    box-shadow:  7px 7px 9px #711c1c,
+             -7px -7px 9px #c53232;
+    border-radius: 47px;
+}
+
+.form-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    margin: 14px 15px;
+}
+
+.label{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 13px    ;
+    
+}
+.btn{
+
+    margin-top: 13px    ;
+}

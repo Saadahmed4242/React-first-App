@@ -1,3 +1,97 @@
-.c-div{
-    height: 100vh;
+#carouselExampleDark {
+    margin-top: 10vh; 
+  }
+.panigation{
+  color: rgb(255, 166, 0);
 }
+  .carousel-caption {
+    height: fit-content;
+    position: absolute;
+    width: fit-content;
+    top: 80%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-align: start;
+    backdrop-filter: blur(13px);
+  }
+  .carousel-caption h1 {
+    animation: fadeInDown 2s;
+    color: rgb(255, 255, 255);
+}
+.carousel-caption p {
+    animation: fadeInUp 2s;
+    color: rgb(255, 255, 255);
+  }
+
+
+  .carousel-caption-1 {
+    height: fit-content;
+    position: absolute;
+    width: fit-content;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: start;
+    backdrop-filter: blur(13px);
+  }
+  .carousel-caption-1 h1 {
+    animation: fadeInDown 2s;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.carousel-caption-1 p {
+    animation: fadeInRight 2s;
+    color: rgb(0, 0, 0);
+  }
+  .carousel-caption-2 {
+    height: fit-content;
+    position: absolute;
+    width: fit-content;
+    top: 80%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-align: start;
+    backdrop-filter: blur(13px);
+  }
+  .carousel-caption-2 h1 {
+    animation: fadeInDown 2s;
+    color: rgb(255, 255, 255);
+}
+.carousel-caption-2 p {
+    animation: fadeInUp 2s;
+    color: rgb(255, 255, 255);
+  }
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes fadeInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .c-h{
+    height: 85vh;
+  }

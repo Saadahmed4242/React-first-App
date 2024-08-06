@@ -7,6 +7,9 @@ export default function Services() {
   return (
     <>
     <div className='service-page'>
+        <div className="heading-services">
+            <h3>Our Services</h3>
+        </div>
         <div className='services'>
             <div className="card ser" >
             <img src={service1} className="card-img-top ser-img" alt="..."/>

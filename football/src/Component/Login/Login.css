@@ -1,0 +1,17 @@
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color:green;
+}
+.login-heading{
+    text-align: center;
+}
+.login-form{
+   padding: 12px 12px;
+    width: 60vh;
+    height: 60vh;
+    border: 2px solid black;
+}
